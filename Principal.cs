@@ -16,5 +16,19 @@ namespace TIA1
         {
             Application.Exit();
         }
+
+        private void ayudaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmAyuda ayuda = new frmAyuda();
+            ayuda.MdiParent = this;
+            ayuda.Show();
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAcercaDe acercade = new frmAcercaDe();
+            acercade.MdiParent = this;
+            acercade.Show();
+        }
     }
 }
