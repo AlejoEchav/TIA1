@@ -1,8 +1,8 @@
 namespace TIA1
 {
-    public partial class Principal : Form
+    public partial class frmPrincipal : Form
     {
-        public Principal()
+        public frmPrincipal()
         {
             InitializeComponent();
         }

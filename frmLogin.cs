@@ -22,7 +22,7 @@ namespace TIA1
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            Principal principal = new Principal();
+            frmPrincipal principal = new frmPrincipal();
             principal.Show();
                 this.Hide();
         }

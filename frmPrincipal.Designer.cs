@@ -1,6 +1,6 @@
 ﻿namespace TIA1
 {
-    partial class Principal
+    partial class frmPrincipal
     {
         /// <summary>
         ///  Required designer variable.
