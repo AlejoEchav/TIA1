@@ -50,10 +50,12 @@
             // 
             // menuStrip1
             // 
+            menuStrip1.ImageScalingSize = new Size(20, 20);
             menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem, tablasToolStripMenuItem, facturacionToolStripMenuItem, seguridadToolStripMenuItem, ayudaToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Padding = new Padding(7, 3, 0, 3);
+            menuStrip1.Size = new Size(914, 30);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -61,13 +63,13 @@
             // 
             archivoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { salirToolStripMenuItem });
             archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            archivoToolStripMenuItem.Size = new Size(60, 20);
+            archivoToolStripMenuItem.Size = new Size(73, 24);
             archivoToolStripMenuItem.Text = "Archivo";
             // 
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(96, 22);
+            salirToolStripMenuItem.Size = new Size(121, 26);
             salirToolStripMenuItem.Text = "Salir";
             salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 
@@ -75,104 +77,107 @@
             // 
             tablasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { formularioClientesToolStripMenuItem, formularioProductoToolStripMenuItem, formularioCategoriasToolStripMenuItem });
             tablasToolStripMenuItem.Name = "tablasToolStripMenuItem";
-            tablasToolStripMenuItem.Size = new Size(52, 20);
+            tablasToolStripMenuItem.Size = new Size(64, 24);
             tablasToolStripMenuItem.Text = "Tablas";
             // 
             // formularioClientesToolStripMenuItem
             // 
             formularioClientesToolStripMenuItem.Name = "formularioClientesToolStripMenuItem";
-            formularioClientesToolStripMenuItem.Size = new Size(130, 22);
+            formularioClientesToolStripMenuItem.Size = new Size(163, 26);
             formularioClientesToolStripMenuItem.Text = "Clientes";
             formularioClientesToolStripMenuItem.Click += formularioClientesToolStripMenuItem_Click;
             // 
             // formularioProductoToolStripMenuItem
             // 
             formularioProductoToolStripMenuItem.Name = "formularioProductoToolStripMenuItem";
-            formularioProductoToolStripMenuItem.Size = new Size(130, 22);
+            formularioProductoToolStripMenuItem.Size = new Size(163, 26);
             formularioProductoToolStripMenuItem.Text = "Productos";
             // 
             // formularioCategoriasToolStripMenuItem
             // 
             formularioCategoriasToolStripMenuItem.Name = "formularioCategoriasToolStripMenuItem";
-            formularioCategoriasToolStripMenuItem.Size = new Size(130, 22);
+            formularioCategoriasToolStripMenuItem.Size = new Size(163, 26);
             formularioCategoriasToolStripMenuItem.Text = "Categorias";
             // 
             // facturacionToolStripMenuItem
             // 
             facturacionToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { formularioFacturasToolStripMenuItem, formularioInformesToolStripMenuItem });
             facturacionToolStripMenuItem.Name = "facturacionToolStripMenuItem";
-            facturacionToolStripMenuItem.Size = new Size(81, 20);
+            facturacionToolStripMenuItem.Size = new Size(98, 24);
             facturacionToolStripMenuItem.Text = "Facturacion";
             // 
             // formularioFacturasToolStripMenuItem
             // 
             formularioFacturasToolStripMenuItem.Name = "formularioFacturasToolStripMenuItem";
-            formularioFacturasToolStripMenuItem.Size = new Size(121, 22);
+            formularioFacturasToolStripMenuItem.Size = new Size(150, 26);
             formularioFacturasToolStripMenuItem.Text = "Facturas";
             // 
             // formularioInformesToolStripMenuItem
             // 
             formularioInformesToolStripMenuItem.Name = "formularioInformesToolStripMenuItem";
-            formularioInformesToolStripMenuItem.Size = new Size(121, 22);
+            formularioInformesToolStripMenuItem.Size = new Size(150, 26);
             formularioInformesToolStripMenuItem.Text = "Informes";
             // 
             // seguridadToolStripMenuItem
             // 
             seguridadToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { empleadosToolStripMenuItem, rolesToolStripMenuItem, seguridadToolStripMenuItem1 });
             seguridadToolStripMenuItem.Name = "seguridadToolStripMenuItem";
-            seguridadToolStripMenuItem.Size = new Size(72, 20);
+            seguridadToolStripMenuItem.Size = new Size(91, 24);
             seguridadToolStripMenuItem.Text = "Seguridad";
             // 
             // empleadosToolStripMenuItem
             // 
             empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            empleadosToolStripMenuItem.Size = new Size(132, 22);
+            empleadosToolStripMenuItem.Size = new Size(224, 26);
             empleadosToolStripMenuItem.Text = "Empleados";
+            empleadosToolStripMenuItem.Click += empleadosToolStripMenuItem_Click;
             // 
             // rolesToolStripMenuItem
             // 
             rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
-            rolesToolStripMenuItem.Size = new Size(132, 22);
+            rolesToolStripMenuItem.Size = new Size(224, 26);
             rolesToolStripMenuItem.Text = "Roles";
             // 
             // seguridadToolStripMenuItem1
             // 
             seguridadToolStripMenuItem1.Name = "seguridadToolStripMenuItem1";
-            seguridadToolStripMenuItem1.Size = new Size(132, 22);
+            seguridadToolStripMenuItem1.Size = new Size(224, 26);
             seguridadToolStripMenuItem1.Text = "Seguridad";
             // 
             // ayudaToolStripMenuItem
             // 
             ayudaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ayudaToolStripMenuItem1, acercaDeToolStripMenuItem });
             ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            ayudaToolStripMenuItem.Size = new Size(53, 20);
+            ayudaToolStripMenuItem.Size = new Size(65, 24);
             ayudaToolStripMenuItem.Text = "Ayuda";
             // 
             // ayudaToolStripMenuItem1
             // 
             ayudaToolStripMenuItem1.Name = "ayudaToolStripMenuItem1";
-            ayudaToolStripMenuItem1.Size = new Size(180, 22);
+            ayudaToolStripMenuItem1.Size = new Size(160, 26);
             ayudaToolStripMenuItem1.Text = "Ayuda";
             ayudaToolStripMenuItem1.Click += ayudaToolStripMenuItem1_Click;
             // 
             // acercaDeToolStripMenuItem
             // 
             acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            acercaDeToolStripMenuItem.Size = new Size(180, 22);
+            acercaDeToolStripMenuItem.Size = new Size(160, 26);
             acercaDeToolStripMenuItem.Text = "Acerca De";
             acercaDeToolStripMenuItem.Click += acercaDeToolStripMenuItem_Click;
             // 
-            // Principal
+            // frmPrincipal
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
-            Name = "Principal";
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "frmPrincipal";
             Text = "Principal";
             WindowState = FormWindowState.Maximized;
+            Load += frmPrincipal_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

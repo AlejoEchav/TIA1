@@ -32,5 +32,17 @@ namespace TIA1
             acercade.MdiParent = this;
             acercade.Show();
         }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmEmpleados empleados = new frmEmpleados();
+            empleados.MdiParent = this;
+            empleados.Show();
+        }
     }
 }
