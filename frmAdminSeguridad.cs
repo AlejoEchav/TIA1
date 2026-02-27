@@ -42,7 +42,7 @@ namespace TIA1
             }
             if (todoCorrecto)
             {
-                MessageBox.Show("¡Registro de cliente actualizado correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("¡Registro del Usuario EXITOSO!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 txtUsuario.Clear();
                 txtClave.Clear();

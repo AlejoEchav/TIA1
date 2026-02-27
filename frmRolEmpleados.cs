@@ -42,11 +42,16 @@ namespace TIA1
             }
             if (todoCorrecto)
             {
-                MessageBox.Show("¡Registro de cliente actualizado correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("¡El rol de empleado se creo correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 txtNombreRol.Clear();
                 txtDescripcion.Clear();
             }
+        }
+
+        private void frmRolEmpleados_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

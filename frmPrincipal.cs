@@ -58,5 +58,33 @@ namespace TIA1
             productos.MdiParent = this;
             productos.Show();
         }
+
+        private void rolesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRolEmpleados rolEmpleados = new frmRolEmpleados();
+            rolEmpleados.MdiParent = this;
+            rolEmpleados.Show();
+        }
+
+        private void seguridadToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmAdminSeguridad adminSeguridad = new frmAdminSeguridad();
+            adminSeguridad.MdiParent = this;
+            adminSeguridad.Show();
+        }
+
+        private void formularioFacturasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFacturas facturas = new frmFacturas();
+            facturas.MdiParent = this;
+            facturas.Show();
+        }
+
+        private void formularioInformesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInformes informes = new frmInformes();
+            informes.MdiParent = this;
+            informes.Show();
+        }
     }
 }

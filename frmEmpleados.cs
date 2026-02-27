@@ -67,7 +67,7 @@ namespace TIA1
             }
             if (todoCorrecto)
             {
-                MessageBox.Show("¡Registro de cliente actualizado correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("¡El empleado se actualizo correctamente!", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 txtNombreEmpleado.Clear();
                 txtDocumento.Clear();

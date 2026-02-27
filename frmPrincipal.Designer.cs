@@ -88,7 +88,7 @@
             // formularioClientesToolStripMenuItem
             // 
             formularioClientesToolStripMenuItem.Name = "formularioClientesToolStripMenuItem";
-            formularioClientesToolStripMenuItem.Size = new Size(180, 22);
+            formularioClientesToolStripMenuItem.Size = new Size(163, 26);
             formularioClientesToolStripMenuItem.Text = "Clientes";
             formularioClientesToolStripMenuItem.Click += formularioClientesToolStripMenuItem_Click;
             // 
@@ -96,7 +96,6 @@
             // 
             formularioProductoToolStripMenuItem.Name = "formularioProductoToolStripMenuItem";
             formularioProductoToolStripMenuItem.Size = new Size(163, 26);
-            formularioProductoToolStripMenuItem.Size = new Size(180, 22);
             formularioProductoToolStripMenuItem.Text = "Productos";
             formularioProductoToolStripMenuItem.Click += formularioProductoToolStripMenuItem_Click;
             // 
@@ -117,14 +116,16 @@
             // formularioFacturasToolStripMenuItem
             // 
             formularioFacturasToolStripMenuItem.Name = "formularioFacturasToolStripMenuItem";
-            formularioFacturasToolStripMenuItem.Size = new Size(150, 26);
+            formularioFacturasToolStripMenuItem.Size = new Size(224, 26);
             formularioFacturasToolStripMenuItem.Text = "Facturas";
+            formularioFacturasToolStripMenuItem.Click += formularioFacturasToolStripMenuItem_Click;
             // 
             // formularioInformesToolStripMenuItem
             // 
             formularioInformesToolStripMenuItem.Name = "formularioInformesToolStripMenuItem";
-            formularioInformesToolStripMenuItem.Size = new Size(150, 26);
+            formularioInformesToolStripMenuItem.Size = new Size(224, 26);
             formularioInformesToolStripMenuItem.Text = "Informes";
+            formularioInformesToolStripMenuItem.Click += formularioInformesToolStripMenuItem_Click;
             // 
             // seguridadToolStripMenuItem
             // 
@@ -145,12 +146,14 @@
             rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
             rolesToolStripMenuItem.Size = new Size(224, 26);
             rolesToolStripMenuItem.Text = "Roles";
+            rolesToolStripMenuItem.Click += rolesToolStripMenuItem_Click;
             // 
             // seguridadToolStripMenuItem1
             // 
             seguridadToolStripMenuItem1.Name = "seguridadToolStripMenuItem1";
             seguridadToolStripMenuItem1.Size = new Size(224, 26);
             seguridadToolStripMenuItem1.Text = "Seguridad";
+            seguridadToolStripMenuItem1.Click += seguridadToolStripMenuItem1_Click;
             // 
             // ayudaToolStripMenuItem
             // 

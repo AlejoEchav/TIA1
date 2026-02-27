@@ -129,6 +129,7 @@
             Controls.Add(lblRol);
             Name = "frmRolEmpleados";
             Text = "frmRolEmpleados";
+            Load += frmRolEmpleados_Load;
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
