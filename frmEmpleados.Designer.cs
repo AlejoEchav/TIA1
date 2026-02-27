@@ -47,7 +47,7 @@
             comboBoxRol = new ComboBox();
             dataTimeIngreso = new DateTimePicker();
             dateTimeRetiro = new DateTimePicker();
-            textBox1 = new TextBox();
+            txtDatosAdicionales = new TextBox();
             errorProvider1 = new ErrorProvider(components);
             btnActualizar = new Button();
             btnSalir = new Button();
@@ -206,12 +206,13 @@
             dateTimeRetiro.Size = new Size(228, 27);
             dateTimeRetiro.TabIndex = 17;
             // 
-            // textBox1
+            // txtDatosAdicionales
             // 
-            textBox1.Location = new Point(460, 252);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(233, 27);
-            textBox1.TabIndex = 18;
+            txtDatosAdicionales.Location = new Point(460, 252);
+            txtDatosAdicionales.Multiline = true;
+            txtDatosAdicionales.Name = "txtDatosAdicionales";
+            txtDatosAdicionales.Size = new Size(233, 94);
+            txtDatosAdicionales.TabIndex = 18;
             // 
             // errorProvider1
             // 
@@ -252,7 +253,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(btnSalir);
             Controls.Add(btnActualizar);
-            Controls.Add(textBox1);
+            Controls.Add(txtDatosAdicionales);
             Controls.Add(dateTimeRetiro);
             Controls.Add(dataTimeIngreso);
             Controls.Add(comboBoxRol);
@@ -299,7 +300,7 @@
         private ComboBox comboBox1;
         private DateTimePicker dataTimeIngreso;
         private DateTimePicker dateTimeRetiro;
-        private TextBox textBox1;
+        private TextBox txtDatosAdicionales;
         private ErrorProvider errorProvider1;
         private Button btnSalir;
         private Button btnActualizar;

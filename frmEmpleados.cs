@@ -74,6 +74,7 @@ namespace TIA1
                 txtDireccion.Clear();
                 txtTelefono.Clear();
                 txtEmail.Clear();
+                txtDatosAdicionales.Clear();
                 comboBoxRol.SelectedIndex = -1;
             }
         }

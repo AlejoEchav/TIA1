@@ -65,12 +65,24 @@ namespace TIA1
             if (todoCorrecto)
             {
                 MessageBox.Show("Producto registrado y actualizado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtCantidadStock.Clear();
+                txtCodigo.Clear();
+                txtDetalles.Clear();
+                txtNombreProducto.Clear();
+                txtPrecioCompra.Clear();
+                txtPrecioVenta.Clear();
+                cmbCategoria.SelectedIndex = -1;
             }
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmProductos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
