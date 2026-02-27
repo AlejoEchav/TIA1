@@ -9,7 +9,9 @@ namespace TIA1
 
         private void formularioClientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmClientes clientes = new frmClientes();
+            clientes.MdiParent = this;
+            clientes.Show();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)

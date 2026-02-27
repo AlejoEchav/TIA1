@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnIngresar = new Button();
             label1 = new Label();
             label2 = new Label();
             txtUsuario = new TextBox();
             txtContrasena = new TextBox();
+            errorProvider1 = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
             // btnIngresar
@@ -78,6 +81,10 @@
             txtContrasena.Size = new Size(185, 23);
             txtContrasena.TabIndex = 4;
             // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
+            // 
             // frmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -90,6 +97,7 @@
             Controls.Add(btnIngresar);
             Name = "frmLogin";
             Text = "frmLogin";
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -101,5 +109,6 @@
         private Label label2;
         private TextBox txtUsuario;
         private TextBox txtContrasena;
+        private ErrorProvider errorProvider1;
     }
 }
