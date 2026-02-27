@@ -67,5 +67,10 @@ namespace TIA1
         {
             this.Close();
         }
+
+        private void frmClientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

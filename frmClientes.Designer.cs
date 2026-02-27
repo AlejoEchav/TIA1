@@ -48,44 +48,50 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(352, 117);
+            txtNombre.Location = new Point(402, 156);
+            txtNombre.Margin = new Padding(3, 4, 3, 4);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(180, 23);
+            txtNombre.Size = new Size(205, 27);
             txtNombre.TabIndex = 0;
             // 
             // txtDocumento
             // 
-            txtDocumento.Location = new Point(354, 168);
+            txtDocumento.Location = new Point(405, 224);
+            txtDocumento.Margin = new Padding(3, 4, 3, 4);
             txtDocumento.Name = "txtDocumento";
-            txtDocumento.Size = new Size(178, 23);
+            txtDocumento.Size = new Size(203, 27);
             txtDocumento.TabIndex = 1;
             // 
             // txtDireccion
             // 
-            txtDireccion.Location = new Point(354, 225);
+            txtDireccion.Location = new Point(405, 300);
+            txtDireccion.Margin = new Padding(3, 4, 3, 4);
             txtDireccion.Name = "txtDireccion";
-            txtDireccion.Size = new Size(180, 23);
+            txtDireccion.Size = new Size(205, 27);
             txtDireccion.TabIndex = 2;
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(352, 279);
+            txtTelefono.Location = new Point(402, 372);
+            txtTelefono.Margin = new Padding(3, 4, 3, 4);
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(180, 23);
+            txtTelefono.Size = new Size(205, 27);
             txtTelefono.TabIndex = 3;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(353, 324);
+            txtEmail.Location = new Point(403, 432);
+            txtEmail.Margin = new Padding(3, 4, 3, 4);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(179, 23);
+            txtEmail.Size = new Size(204, 27);
             txtEmail.TabIndex = 4;
             // 
             // btnActualizar
             // 
-            btnActualizar.Location = new Point(283, 381);
+            btnActualizar.Location = new Point(323, 508);
+            btnActualizar.Margin = new Padding(3, 4, 3, 4);
             btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(75, 23);
+            btnActualizar.Size = new Size(86, 31);
             btnActualizar.TabIndex = 5;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = true;
@@ -93,9 +99,10 @@
             // 
             // btnSalir
             // 
-            btnSalir.Location = new Point(439, 381);
+            btnSalir.Location = new Point(502, 508);
+            btnSalir.Margin = new Padding(3, 4, 3, 4);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(75, 23);
+            btnSalir.Size = new Size(86, 31);
             btnSalir.TabIndex = 6;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
@@ -110,62 +117,62 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.HotTrack;
-            label1.Location = new Point(216, 44);
+            label1.Location = new Point(247, 59);
             label1.Name = "label1";
-            label1.Size = new Size(358, 37);
+            label1.Size = new Size(451, 46);
             label1.TabIndex = 7;
             label1.Text = "NUEVO REGISTRO CLIENTE";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(241, 120);
+            label2.Location = new Point(275, 160);
             label2.Name = "label2";
-            label2.Size = new Size(94, 15);
+            label2.Size = new Size(117, 20);
             label2.TabIndex = 8;
             label2.Text = "Nombre Cliente:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(222, 171);
+            label3.Location = new Point(254, 228);
             label3.Name = "label3";
-            label3.Size = new Size(113, 15);
+            label3.Size = new Size(140, 20);
             label3.TabIndex = 9;
             label3.Text = "Documento Cliente:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(235, 228);
+            label4.Location = new Point(269, 304);
             label4.Name = "label4";
-            label4.Size = new Size(100, 15);
+            label4.Size = new Size(125, 20);
             label4.TabIndex = 10;
             label4.Text = "Dirección Cliente:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(239, 282);
+            label5.Location = new Point(273, 376);
             label5.Name = "label5";
-            label5.Size = new Size(96, 15);
+            label5.Size = new Size(120, 20);
             label5.TabIndex = 11;
             label5.Text = "Telefono Cliente:";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(256, 327);
+            label6.Location = new Point(293, 436);
             label6.Name = "label6";
-            label6.Size = new Size(79, 15);
+            label6.Size = new Size(99, 20);
             label6.TabIndex = 12;
             label6.Text = "Email Cliente:";
             // 
             // frmClientes
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -179,8 +186,10 @@
             Controls.Add(txtDireccion);
             Controls.Add(txtDocumento);
             Controls.Add(txtNombre);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmClientes";
             Text = "frmClientes";
+            Load += frmClientes_Load;
             ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
