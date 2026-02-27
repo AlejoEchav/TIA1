@@ -81,21 +81,23 @@
             // formularioClientesToolStripMenuItem
             // 
             formularioClientesToolStripMenuItem.Name = "formularioClientesToolStripMenuItem";
-            formularioClientesToolStripMenuItem.Size = new Size(130, 22);
+            formularioClientesToolStripMenuItem.Size = new Size(180, 22);
             formularioClientesToolStripMenuItem.Text = "Clientes";
             formularioClientesToolStripMenuItem.Click += formularioClientesToolStripMenuItem_Click;
             // 
             // formularioProductoToolStripMenuItem
             // 
             formularioProductoToolStripMenuItem.Name = "formularioProductoToolStripMenuItem";
-            formularioProductoToolStripMenuItem.Size = new Size(130, 22);
+            formularioProductoToolStripMenuItem.Size = new Size(180, 22);
             formularioProductoToolStripMenuItem.Text = "Productos";
+            formularioProductoToolStripMenuItem.Click += formularioProductoToolStripMenuItem_Click;
             // 
             // formularioCategoriasToolStripMenuItem
             // 
             formularioCategoriasToolStripMenuItem.Name = "formularioCategoriasToolStripMenuItem";
-            formularioCategoriasToolStripMenuItem.Size = new Size(130, 22);
+            formularioCategoriasToolStripMenuItem.Size = new Size(180, 22);
             formularioCategoriasToolStripMenuItem.Text = "Categorias";
+            formularioCategoriasToolStripMenuItem.Click += formularioCategoriasToolStripMenuItem_Click;
             // 
             // facturacionToolStripMenuItem
             // 
@@ -126,19 +128,20 @@
             // empleadosToolStripMenuItem
             // 
             empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            empleadosToolStripMenuItem.Size = new Size(132, 22);
+            empleadosToolStripMenuItem.Size = new Size(180, 22);
             empleadosToolStripMenuItem.Text = "Empleados";
+            empleadosToolStripMenuItem.Click += empleadosToolStripMenuItem_Click;
             // 
             // rolesToolStripMenuItem
             // 
             rolesToolStripMenuItem.Name = "rolesToolStripMenuItem";
-            rolesToolStripMenuItem.Size = new Size(132, 22);
+            rolesToolStripMenuItem.Size = new Size(180, 22);
             rolesToolStripMenuItem.Text = "Roles";
             // 
             // seguridadToolStripMenuItem1
             // 
             seguridadToolStripMenuItem1.Name = "seguridadToolStripMenuItem1";
-            seguridadToolStripMenuItem1.Size = new Size(132, 22);
+            seguridadToolStripMenuItem1.Size = new Size(180, 22);
             seguridadToolStripMenuItem1.Text = "Seguridad";
             // 
             // ayudaToolStripMenuItem
@@ -151,18 +154,18 @@
             // ayudaToolStripMenuItem1
             // 
             ayudaToolStripMenuItem1.Name = "ayudaToolStripMenuItem1";
-            ayudaToolStripMenuItem1.Size = new Size(180, 22);
+            ayudaToolStripMenuItem1.Size = new Size(127, 22);
             ayudaToolStripMenuItem1.Text = "Ayuda";
             ayudaToolStripMenuItem1.Click += ayudaToolStripMenuItem1_Click;
             // 
             // acercaDeToolStripMenuItem
             // 
             acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            acercaDeToolStripMenuItem.Size = new Size(180, 22);
+            acercaDeToolStripMenuItem.Size = new Size(127, 22);
             acercaDeToolStripMenuItem.Text = "Acerca De";
             acercaDeToolStripMenuItem.Click += acercaDeToolStripMenuItem_Click;
             // 
-            // Principal
+            // frmPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -170,7 +173,7 @@
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
-            Name = "Principal";
+            Name = "frmPrincipal";
             Text = "Principal";
             WindowState = FormWindowState.Maximized;
             menuStrip1.ResumeLayout(false);
