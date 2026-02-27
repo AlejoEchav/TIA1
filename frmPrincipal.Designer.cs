@@ -20,6 +20,11 @@
             base.Dispose(disposing);
         }
 
+        private ToolStripMenuItem GetFormularioClientesToolStripMenuItem1()
+        {
+            return formularioClientesToolStripMenuItem;
+        }
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -83,7 +88,7 @@
             // formularioClientesToolStripMenuItem
             // 
             formularioClientesToolStripMenuItem.Name = "formularioClientesToolStripMenuItem";
-            formularioClientesToolStripMenuItem.Size = new Size(163, 26);
+            formularioClientesToolStripMenuItem.Size = new Size(180, 22);
             formularioClientesToolStripMenuItem.Text = "Clientes";
             formularioClientesToolStripMenuItem.Click += formularioClientesToolStripMenuItem_Click;
             // 
@@ -91,13 +96,16 @@
             // 
             formularioProductoToolStripMenuItem.Name = "formularioProductoToolStripMenuItem";
             formularioProductoToolStripMenuItem.Size = new Size(163, 26);
+            formularioProductoToolStripMenuItem.Size = new Size(180, 22);
             formularioProductoToolStripMenuItem.Text = "Productos";
+            formularioProductoToolStripMenuItem.Click += formularioProductoToolStripMenuItem_Click;
             // 
             // formularioCategoriasToolStripMenuItem
             // 
             formularioCategoriasToolStripMenuItem.Name = "formularioCategoriasToolStripMenuItem";
             formularioCategoriasToolStripMenuItem.Size = new Size(163, 26);
             formularioCategoriasToolStripMenuItem.Text = "Categorias";
+            formularioCategoriasToolStripMenuItem.Click += formularioCategoriasToolStripMenuItem_Click;
             // 
             // facturacionToolStripMenuItem
             // 
